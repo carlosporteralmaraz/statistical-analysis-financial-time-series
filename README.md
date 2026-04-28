@@ -120,31 +120,31 @@ However, convergence is slow due to heavy tails and volatility clustering.
 </p>
 
 ---
-
 ## Repository Structure
 
+```text
+.
 ├── data/
-│ ├── raw/
-│ └── preparados/
+│   ├── raw/
+│   └── preparados/
 │
 ├── figures/
-│ ├── fat_tails/
-│ ├── correlation/
-│ └── cumulative_distributions/
+│   ├── fat_tails/
+│   ├── correlation/
+│   └── cumulative_distributions/
 │
 ├── src/
-│ ├── preparar_datos.py
-│ ├── variables.py
-│ ├── fat_tails.py
-│ ├── autocorrelation.py
-│ └── cumulative_distributions.py
+│   ├── preparar_datos.py
+│   ├── variables.py
+│   ├── fat_tails.py
+│   ├── autocorrelation.py
+│   └── cumulative_distributions.py
 │
 ├── docs/
-│ └── report.pdf
+│   └── report.pdf
 │
 ├── README.md
 └── .gitignore
-
 ---
 
 ## How to Run
