@@ -30,6 +30,7 @@ The analysis uses daily market data from:
 Time period: 2000-01-01 to 2025-12-31
 
 Prices are adjusted for inflation using the Consumer Price Index (CPI): P_real = P / CPI
+
 Log-returns are computed as:r_tau(t) = log(P_t / P_{t-tau})
 
 Time scales considered:
