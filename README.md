@@ -31,7 +31,7 @@ Time period: 2000-01-01 to 2025-12-31
 
 Prices are adjusted for inflation using the Consumer Price Index (CPI): P_real = P / CPI
 
-Log-returns are computed as:r_tau(t) = log(P_t / P_{t-tau})
+Log-returns are computed as: r_tau(t) = log(P_t / P_{t-tau})
 
 Time scales considered:
 
@@ -152,40 +152,45 @@ However, convergence is slow due to heavy tails and volatility clustering.
 
 Install dependencies:
 
-```bash
-pip install pandas numpy matplotlib scipy yfinance
+    pip install pandas numpy matplotlib scipy yfinance
 
 Run the scripts:
 
-python src/preparar_datos.py
-python src/variables.py
-python src/fat_tails.py
-python src/autocorrelation.py
-python src/cumulative_distributions.py
+    python src/preparar_datos.py
+    python src/variables.py
+    python src/fat_tails.py
+    python src/autocorrelation.py
+    python src/cumulative_distributions.py
 
 ---
 
 ## Report
 
-Full report available at: docs/report.pdf
+Full report available at:
+
+`docs/report.pdf`
 
 ---
 
 ## Key Takeaways
 
-- Financial returns exhibit heavy tails and deviate from Gaussian models
-- Returns are uncorrelated, but volatility is not
-- Volatility clustering introduces temporal structure
-- Convergence to normality is slow
+- Financial returns exhibit heavy tails and deviate from Gaussian models  
+- Returns are uncorrelated, but volatility is not  
+- Volatility clustering introduces temporal structure  
+- Convergence to normality is slow  
+
+---
 
 ## Reference
 
-Cont, R. (2001). Empirical properties of asset returns: stylized facts and statistical issues
+Cont, R. (2001). *Empirical properties of asset returns: stylized facts and statistical issues*
+
+---
 
 ## Author
 
-Carlos Porter Almaraz
-Physics graduate (UAM)
+Carlos Porter Almaraz  
+Physics graduate (UAM)  
 MSc Statistics for Data Science (UC3M)
 
 
