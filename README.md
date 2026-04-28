@@ -146,6 +146,7 @@ However, convergence is slow due to heavy tails and volatility clustering.
 │
 ├── README.md
 └── .gitignore
+```
 ---
 
 ## How to Run
